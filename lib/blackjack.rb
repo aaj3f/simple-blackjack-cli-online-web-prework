@@ -37,7 +37,8 @@ def hit?(card_total)
   elsif input == "h"
     card_total += deal_card
   else
-    puts "some string"
+    puts "Try again, my man."
+    hit?(card_total)
   end
 end
 
