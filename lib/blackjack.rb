@@ -18,8 +18,8 @@ def get_user_input
   string = gets.chomp
 end
 
-def end_game
-  # code #end_game here
+def end_game(card_total)
+  puts "#{card_total}"
 end
 
 def initial_round
