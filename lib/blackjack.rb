@@ -42,7 +42,8 @@ def hit?(card_total)
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Try again, my man."
+  hit?(card_total)
 end
 
 #####################################################
